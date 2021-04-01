@@ -1,0 +1,140 @@
+@media screen and (min-width: 375px) {
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/*header*/
+
+.headerdiv {
+	width: 300px;
+	margin: 50px auto;
+}
+
+header {
+	font-weight: 200;
+	color: hsl(229, 6%, 66%);
+	text-align: center;
+}
+
+h1 {
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+	font-size: 1.5em;
+}
+
+
+h1 span {
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+header p {
+	margin-bottom: 50px;
+}
+/*content*/
+
+.categories {
+	/*width: 100%;*/
+	width:300px;
+	margin: 0 auto;
+	height: 250px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	box-shadow: 1px 5px 15px hsl(229, 6%, 66%);
+	border-radius: 5px;
+	padding:15px 30px;
+	color: hsl(229, 6%, 66%);
+	position:relative;
+}
+
+.categories h2 {
+	margin-bottom: 5px;
+	color: hsl(234, 12%, 34%);
+}
+
+#supervisorbox {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+#teambuilderbox {
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karmabox {
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calculatorbox {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.icon {
+	position: absolute;
+	bottom: 30px;
+	right: 35px;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+.headerdiv {
+	width: 500px;
+}
+
+header p {
+	margin-bottom: -30px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	height:100%;
+	/*margin-top: -45px; */
+}
+
+#leftcolumn, #rightcolumn {
+	display: flex;
+	align-items: center;
+}
+
+.categories {
+	width:400px;
+	height: 250px;
+	margin: 40px 20px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
